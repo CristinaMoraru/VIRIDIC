@@ -59,8 +59,11 @@ This repository contains:
 		install.packages("BiocManager")
 		BiocManager::install("ComplexHeatmap")
 		```
-## How to run VIRIDIC from the shiny-app
+## How to run VIRIDIC shiny-app
 * Open RStudio, create a new project for the folder VIRIDIC (directly in this folder there are the files of the shiny-app)
+* open either ui.R or server.R files in RStudio, press button "Run App"
+* this will start the VIRIDIC GUI, which then runs the VIRIDIC stand-alone code
+  
 ## How to run VIRIDIC stand-alone
 
 * go to your folder with the VIRIDIC scripts
