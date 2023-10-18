@@ -38,7 +38,7 @@
 	install.packages("pheatmap")
 	install.packages("fastcluster")
 	install.packages("parallelDist")
-  install.packages("furrr")
+        install.packages("furrr")
 	install.packages("future")
 
 	#install.packages("ComplexHeatmap")
@@ -53,4 +53,4 @@ use command "Rscript 00_viridic_master.R [...options]"
 for options, see manual, either by running "Rscript 00_viridic_master.R help" or by checking the PDF file here: /VIRIDIC/stand_alone/download/viridic_manual_v1.1.pdf
  
 # example of how to run one VIRIDIC analysis
-	Rscript 00_viridic_master.R projdir=/home/cmoraru/TEST_CLM/testVIridic in=/home/cmoraru/TEST_CLM/Ebeline_rel.fna cpu=10
+	Rscript 00_viridic_master.R projdir=/home/cmoraru/TEST_CLM/testVIridic in=/home/cmoraru/TEST_CLM/Ebeline_rel.fna ncor=10
