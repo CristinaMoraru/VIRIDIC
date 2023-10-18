@@ -39,6 +39,7 @@ This repository contains:
 	install.packages("shiny")
 	install.packages("shinyjs")
 	install.packages("shinyWidgets")
+  	install.packah´ges("shinythemes")
 	install.packages("seqinr")
 
 	#install.packages("IRanges")
