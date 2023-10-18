@@ -6,9 +6,9 @@ This repository contains:
 - the source code for the shiny-app, which provides a graphical user interface for the standa-lone VIRIDIC
 
 
-## How to install
+## How to install VIRIDIC
 
-* copy to your profile the VIRIDIC scripts found here: /VIRIDIC/stand_alone/viridic_scripts/
+* copy to your profile the content of the VIRIDIC folder
 
 * create and activate the VIRIDIC conda env
 
@@ -19,7 +19,7 @@ This repository contains:
 	conda env create -f VIRIDIC.yml
 	conda activate VIRIDIC
 	```
-  ### install R libraries from within R
+  ### Install R libraries from within R
   ```bash
 	R  #this command starts R
   	```
@@ -59,8 +59,9 @@ This repository contains:
 		install.packages("BiocManager")
 		BiocManager::install("ComplexHeatmap")
 		```
-
-## How to run VIRIDIC
+## How to run VIRIDIC from the shiny-app
+* Open RStudio, create a new project for the folder VIRIDIC (directly in this folder there are the files of the shiny-app)
+## How to run VIRIDIC stand-alone
 
 * go to your folder with the VIRIDIC scripts
 * use the command "Rscript 00_viridic_master.R [...options]"
@@ -70,3 +71,5 @@ This repository contains:
 # example of how to run one VIRIDIC analysis
 	Rscript 00_viridic_master.R projdir=/home/cmoraru/TEST_CLM/testVIridic in=/home/cmoraru/TEST_CLM/Ebeline_rel.fna cpu=10
 	```
+
+
