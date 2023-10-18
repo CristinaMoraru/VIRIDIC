@@ -1,9 +1,10 @@
 # VIRIDIC
-VIRIDIC (Virus Intergenomic Distance Calculator) computes pairwise intergenomic distances/similarities amongst viral genomes. 
+VIRIDIC (Virus Intergenomic Distance Calculator) computes pairwise intergenomic distances/similarities amongst viral genomes. VIRIDIC is available at www.viridic.icbm.de as a web-service or a singularity package. In addition, the R language source code can be accessed from this repository.  
+If you use VIRIDIC, please cite: Moraru, C., Varsani, A., and Kropinski, A.M. (2020) VIRIDIC – a novel tool to calculate the intergenomic similarities of prokaryote-infecting viruses. Viruses 12(11). https://doi.org/10.3390/v12111268
 
 This repository contains:
 - the source code for the stand-alone VIRIDIC, written in R
-- the source code for the shiny-app, which provides a graphical user interface for the standa-lone VIRIDIC
+- the source code for the shiny-app, which provides a graphical user interface for the standa-alone VIRIDIC
 
 
 ## How to install VIRIDIC
@@ -63,6 +64,8 @@ This repository contains:
 * Open RStudio, create a new project for the folder VIRIDIC (directly in this folder there are the files of the shiny-app)
 * open either ui.R or server.R files in RStudio, press button "Run App"
 * this will start the VIRIDIC GUI, which then runs the VIRIDIC stand-alone code
+
+* In addition, if you install the shiny-server, you can run VIRIDIC as an independent web-app.
   
 ## How to run VIRIDIC stand-alone
 
@@ -72,7 +75,7 @@ This repository contains:
  
 ```R
 # example of how to run one VIRIDIC analysis
-	Rscript 00_viridic_master.R projdir=/home/cmoraru/TEST_CLM/testVIridic in=/home/cmoraru/TEST_CLM/Ebeline_rel.fna cpu=10
+	Rscript 00_viridic_master.R projdir=/home/cmoraru/TEST_CLM/testVIridic in=/home/cmoraru/TEST_CLM/Ebeline_rel.fna ncor=10
 	```
 
 
