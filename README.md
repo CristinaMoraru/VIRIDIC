@@ -6,7 +6,7 @@ This repository contains:
 - the source code for the shiny-app, which provides a graphical user interface for the standa-lone VIRIDIC
 
 
-# Instructions on how to run VIRIDIC from the source code
+## Instructions on how to run VIRIDIC from the source code
 
 * copy to your profile the VIRIDIC scripts found here: /VIRIDIC/stand_alone/viridic_scripts/
 
@@ -19,7 +19,7 @@ This repository contains:
 	conda env create -f VIRIDIC.yml
 	conda activate VIRIDIC
 
-	## install R libraries from within R
+  ### install R libraries from within R
 	R  #this command starts R
 	options(repos = c(CRAN = "https://cloud.r-project.org/"))
 
