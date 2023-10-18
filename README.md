@@ -42,9 +42,9 @@ This repository contains:
 	install.packages("seqinr")
 
 	#install.packages("IRanges")
-				if (!require("BiocManager", quietly = TRUE))
-				    install.packages("BiocManager")
-				BiocManager::install("IRanges")
+		if (!require("BiocManager", quietly = TRUE))
+		install.packages("BiocManager")
+		BiocManager::install("IRanges")
 
 	install.packages("reshape2")
 	install.packages("pheatmap")
@@ -54,9 +54,9 @@ This repository contains:
 	install.packages("future")
 
 	#install.packages("ComplexHeatmap")
-					if (!require("BiocManager", quietly = TRUE))
-					    install.packages("BiocManager")
-					BiocManager::install("ComplexHeatmap")
+		if (!require("BiocManager", quietly = TRUE))
+		install.packages("BiocManager")
+		BiocManager::install("ComplexHeatmap")
  ```
 
 ## How to run VIRIDIC
