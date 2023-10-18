@@ -15,7 +15,7 @@ This repository contains:
 	- use the yml file from /VIRIDIC/stand_alone/user-install/VIRIDIC.yml to create the VIRIDIC conda env
 	- install the specific R libraries
 	
-	
+	'''
 	conda env create -f VIRIDIC.yml
 	conda activate VIRIDIC
 
@@ -53,7 +53,7 @@ This repository contains:
 					if (!require("BiocManager", quietly = TRUE))
 					    install.packages("BiocManager")
 					BiocManager::install("ComplexHeatmap")
- 
+ '''
 *To run VIRIDIC
 
 go to your folder with the VIRIDIC scripts
