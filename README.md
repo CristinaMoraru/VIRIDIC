@@ -61,9 +61,9 @@ This repository contains:
 
 ## How to run VIRIDIC
 
-go to your folder with the VIRIDIC scripts
-use command "Rscript 00_viridic_master.R [...options]"
-for options, see manual, either by running "Rscript 00_viridic_master.R help" or by checking the PDF file here: /VIRIDIC/stand_alone/download/viridic_manual_v1.1.pdf
+* go to your folder with the VIRIDIC scripts
+* use the command "Rscript 00_viridic_master.R [...options]"
+* for options, see manual, either by running "Rscript 00_viridic_master.R help" or by checking the PDF file here: /VIRIDIC/stand_alone/download/viridic_manual_v1.1.pdf
  
 ```R
 # example of how to run one VIRIDIC analysis
