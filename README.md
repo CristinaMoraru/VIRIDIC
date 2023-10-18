@@ -15,10 +15,10 @@ This repository contains:
 	- use the yml file from /VIRIDIC/stand_alone/user-install/VIRIDIC.yml to create the VIRIDIC conda env
 	- install the specific R libraries
 	
-	'''
+  ```bash
 	conda env create -f VIRIDIC.yml
 	conda activate VIRIDIC
-
+```
   ### install R libraries from within R
 	R  #this command starts R
 	options(repos = c(CRAN = "https://cloud.r-project.org/"))
