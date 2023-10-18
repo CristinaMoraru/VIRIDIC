@@ -6,7 +6,7 @@ This repository contains:
 - the source code for the shiny-app, which provides a graphical user interface for the standa-lone VIRIDIC
 
 
-## Instructions on how to run VIRIDIC from the source code
+## How to install
 
 * copy to your profile the VIRIDIC scripts found here: /VIRIDIC/stand_alone/viridic_scripts/
 
@@ -59,11 +59,13 @@ This repository contains:
 					BiocManager::install("ComplexHeatmap")
  ```
 
-*To run VIRIDIC
+## How to run VIRIDIC
 
 go to your folder with the VIRIDIC scripts
 use command "Rscript 00_viridic_master.R [...options]"
 for options, see manual, either by running "Rscript 00_viridic_master.R help" or by checking the PDF file here: /VIRIDIC/stand_alone/download/viridic_manual_v1.1.pdf
  
+```R
 # example of how to run one VIRIDIC analysis
 	Rscript 00_viridic_master.R projdir=/home/cmoraru/TEST_CLM/testVIridic in=/home/cmoraru/TEST_CLM/Ebeline_rel.fna cpu=10
+```
