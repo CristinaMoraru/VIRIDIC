@@ -18,9 +18,13 @@ This repository contains:
   ```bash
 	conda env create -f VIRIDIC.yml
 	conda activate VIRIDIC
-```
+	```
   ### install R libraries from within R
+  ```bash
 	R  #this command starts R
+  ```
+  
+  ```R
 	options(repos = c(CRAN = "https://cloud.r-project.org/"))
 
 	install.packages("stringr")
@@ -46,14 +50,15 @@ This repository contains:
 	install.packages("pheatmap")
 	install.packages("fastcluster")
 	install.packages("parallelDist")
-  install.packages("furrr")
+  	install.packages("furrr")
 	install.packages("future")
 
 	#install.packages("ComplexHeatmap")
 					if (!require("BiocManager", quietly = TRUE))
 					    install.packages("BiocManager")
 					BiocManager::install("ComplexHeatmap")
- '''
+ ```
+
 *To run VIRIDIC
 
 go to your folder with the VIRIDIC scripts
