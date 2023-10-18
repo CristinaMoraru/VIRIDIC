@@ -22,7 +22,7 @@ This repository contains:
   ### install R libraries from within R
   ```bash
 	R  #this command starts R
-  ```
+  	```
   
   ```R
 	options(repos = c(CRAN = "https://cloud.r-project.org/"))
@@ -57,7 +57,7 @@ This repository contains:
 		if (!require("BiocManager", quietly = TRUE))
 		install.packages("BiocManager")
 		BiocManager::install("ComplexHeatmap")
- ```
+		```
 
 ## How to run VIRIDIC
 
@@ -68,4 +68,4 @@ for options, see manual, either by running "Rscript 00_viridic_master.R help" or
 ```R
 # example of how to run one VIRIDIC analysis
 	Rscript 00_viridic_master.R projdir=/home/cmoraru/TEST_CLM/testVIridic in=/home/cmoraru/TEST_CLM/Ebeline_rel.fna cpu=10
-```
+	```
