@@ -349,7 +349,13 @@ shinyUI(
                                                     column(2, offset = 0, downloadButton("Down_manual", "Download manual"))#,
                                                     #column(2, offset = 0, downloadButton("Down_code", "Download manual"))
                                                 ),
-                                                fluidRow(h1(""))
+                                                fluidRow(h1("")),
+                                                fluidRow(
+                                                  column(10, offset = 1, h4("Download VIRIDIC source code"))
+                                                ),
+                                                fluidRow(
+                                                  column(10, offset = 1, p("You can download the VIRIDIC source code, including that of the shiny app from the GitHub Repo: ", tags$a("VIRIDIC repo", target = "_blank", href="https://github.com/CristinaMoraru/VIRIDIC/")))
+                                                )
                                                     ))),
                      ##### Bottom ----
                      fluidRow(h1("")),
