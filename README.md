@@ -35,6 +35,7 @@ This repository contains:
 	install.packages("purrr")
 	install.packages("tidyr")
 	install.packages("ggplot2")
+  	install.packages("data.table")
 
 	install.packages("DT")
 	install.packages("shiny")
