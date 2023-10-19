@@ -1,5 +1,5 @@
 # VIRIDIC
-VIRIDIC (Virus Intergenomic Distance Calculator) computes pairwise intergenomic distances/similarities amongst viral genomes. VIRIDIC is available at www.viridic.icbm.de as a web-service or a singularity package. In addition, the R language source code can be accessed from this repository.  
+VIRIDIC (Virus Intergenomic Distance Calculator) computes pairwise intergenomic distances/similarities amongst viral genomes. VIRIDIC is available at http://viridic.icbm.de as a web-service or a singularity package. In addition, the R language source code can be accessed from this repository.  
 If you use VIRIDIC, please cite: Moraru, C., Varsani, A., and Kropinski, A.M. (2020) VIRIDIC – a novel tool to calculate the intergenomic similarities of prokaryote-infecting viruses. Viruses 12(11). https://doi.org/10.3390/v12111268
 
 This repository contains:
